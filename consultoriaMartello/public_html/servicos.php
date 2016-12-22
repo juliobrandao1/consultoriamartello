@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<title>- CONSULTORIA MARTELLO -</title>
-		<link rel="stylesheet" href="style.css" type="text/css" />
+		<link rel="stylesheet" href="css/style.css" type="text/css" />
 
 <script language="Javascript" type="text/javascript">
 function alerta() {
@@ -38,26 +38,33 @@ function alerta() {
 	
  <div id="conteudo">
 
-<h2>Áreas de Atuação:</h2>
+<h2>Selecione uma Área de Atuação:</h2>
 
-<h3>
-<ul>
-<li>Consultoria em Finanças Pessoais
-<li>Consultoria para Investimentos
-<li>Palestras
-</ul>
-</h3>
 
-<h2>Como Fazemos?</h2>
+
+
+
+<img class="areas" src="fotos/financas.jpg" onmouseover="this.src='fotos/financas2.jpg'" onmouseout="this.src='fotos/financas.jpg'">
+<img class="areas" src="fotos/investimentos.jpg" onmouseover="this.src='fotos/investimentos2.jpg'" onmouseout="this.src='fotos/investimentos.jpg'">
+<img class="areas" src="fotos/palestras.jpg" onmouseover="this.src='fotos/palestras2.jpg'" onmouseout="this.src='fotos/palestras.jpg'">
+
+
+
+<div class="financas">
 
 <h2>Consultoria de Finanças Pessoais:</h2><br>
 
 <p>Oferecemos consultoria pessoal e/ou familiar que abrange o campo da organização financeira do dia-a-dia, ou seja, hábitos de consumo.</p>
+</div>
+
+<div class="investimentos">
 
 <h2>Consultoria de Investimentos:</h2>
 ​
 <p>Através da consultoria de investimentos podemos fazer você alcançar suas necessidades e metas, possibilitando o aumento da rentabilidade da sua carteira.</p>
-​
+​</div>
+
+<div class="palestras">
 <h2>N​ossas Palestras:</h2>
 ​
 <p>Com o intuito de levar às pessoas conhecimento sobre finanças pessoais, iniciação para aplicação e otimização de carteiras de investimentos, oferecemos palestras para pequeno, médio e grande público, visando benefícios como aumento de produtividade e melhoria no ambiente de trabalho, decorrentes de segurança e bem-estar de seus recursos.</p>
@@ -95,8 +102,10 @@ function alerta() {
 Nossas palestras possuem o tempo médio de duração de 50 minutos.
 Público alvo: os temas 1 e 2 são para pessoas de todas as idades e faixas de renda que queiram ou necessitam organizarem suas finanças do dia-a-dia e que querem aplicar parte dos seus recursos. O tema 3 é voltado para pessoas que já possuem carteira de investimentos e querem conhecer novas possibilidades do mercado.
 </p></h3>
- </div>  
+</div>
 
+ </div>  
+<br><br><br><br>
 <div class="footer">
         Designed by Júlio Brandão
     </div>

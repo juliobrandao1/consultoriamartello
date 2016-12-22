@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<title>- CONSULTORIA MARTELLO -</title>
-		<link rel="stylesheet" href="style.css" type="text/css" />
+		<link rel="stylesheet" href="css/style.css" type="text/css" />
 
 <script language="Javascript" type="text/javascript">
 function alerta() {
